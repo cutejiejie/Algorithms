@@ -3,7 +3,6 @@ import random
 
 li = list(range(100))
 random.shuffle(li)
-
 print(li)
 
 heapq.heapify(li) #建堆
