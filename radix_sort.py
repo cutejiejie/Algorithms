@@ -23,7 +23,6 @@ def radix_sort(li):
 
 
 import random#
-
 li = [random.randint(0, 100) for _ in range(100)]
 random.shuffle(li)
 print(li)
